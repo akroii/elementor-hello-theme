@@ -11,9 +11,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <main id="main" class="site-main <?php post_class(); ?>" role="main">
 
-	<header class="page-header">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
-	</header>
 
 	<div class="page-content">
 		<?php the_content(); ?>
